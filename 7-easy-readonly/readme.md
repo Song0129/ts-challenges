@@ -20,3 +20,7 @@ const todo: MyReadonly<Todo> = {
 todo.title = "Hello"; // Error: cannot reassign a readonly property
 todo.description = "barFoo"; // Error: cannot reassign a readonly property
 ```
+
+> 进阶
+
+如何给指定属性增加 readonly 属性
