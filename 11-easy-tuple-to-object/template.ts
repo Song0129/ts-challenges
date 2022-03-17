@@ -9,6 +9,8 @@ type r = TupleToObject<typeof tuple>;
 
 // js
 function TupleToObject(array) {
+	// 1.首先判断array中的key是不是string类型、number类型、symbol类型
+	// 都不是 直接error
 	const obj = {};
 	array.forEach(val => {
 		obj[val] = val;

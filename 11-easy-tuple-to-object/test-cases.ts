@@ -26,6 +26,7 @@ type error = TupleToObject<[[1, 2], {}]>;
 // strConst = "222";
 
 // 3. @ts-expect-error 注释
+//    -https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html#-ts-expect-error-comments
 // 等价于下面
 // expect(() => {
 // 	type error = TupleToObject<[[1, 2], {}]>;
