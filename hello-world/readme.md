@@ -1,4 +1,5 @@
-<h1>Hello World <img src="https://img.shields.io/badge/-%E7%83%AD%E8%BA%AB-teal" alt="热身"/> </h1>
+<h1>Hello World 
+<img src="https://img.shields.io/badge/-%E7%83%AD%E8%BA%AB-teal" alt="热身"/> </h1>
 Hello, World!
 
 这个简单的提问希望让你可以快速上手 Type Challenges。在这里，我们使用了一些神奇的技巧让 TypeScript 通过自身的类型系统来实现自动判题。
