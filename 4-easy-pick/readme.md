@@ -1,4 +1,4 @@
-<h1>实现 Pick 
+<h1>实现 Pick easy-pick
 <img src="https://img.shields.io/badge/-%E7%AE%80%E5%8D%95-7aad0c" alt="简单"/> 
 <img src="https://img.shields.io/badge/-%23union-999" alt="#union"/> 
 <img src="https://img.shields.io/badge/-%23built--in-999" alt="#built-in"/>
