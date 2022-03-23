@@ -1,6 +1,10 @@
 import { Equal, Expect } from "@type-challenges/utils";
 
 const tesla = ["tesla", "model 3", "model X", "model Y"] as const;
+
+// 加了as const  变量会变成定长、readonly修饰的tuple
+type t55 = typeof tesla;
+
 const spaceX = ["FALCON 9", "FALCON HEAVY", "DRAGON", "STARSHIP", "HUMAN SPACEFLIGHT"] as const;
 
 type cases = [
