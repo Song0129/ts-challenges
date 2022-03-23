@@ -15,6 +15,11 @@ type t1 = ages[number];
 // 1 extends 3
 type t2 = 1 extends ages[number] ? "true" : "false";
 
+// infer 类比解构数组
+type Tail<T extends any[]> = T extends [infer First, ...infer Rest] ? Rest : never;
+
+type t4 = Tail<[1, 2, 3]>;
+
 // js
 const first = arr => {
 	// arr 是不是一个空数组 如果是的话 那么返回 never
